@@ -7,7 +7,7 @@ to start the project:
 
 ```npm i && npm start```
 
-the end endpoint to calculate the length of wood is the following: http://localhost:3000/tree-length
+the endpoint to calculate the length of wood is the following: http://localhost:3000/tree-length
 the data should be structure this way:
 
 ```
