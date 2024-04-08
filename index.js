@@ -6,10 +6,15 @@ const cors = require("cors");
 
 const app = express();
 
-app.use(cors());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
-app.use("/api", router);
+app
+  .use(cors())
+  .use(bodyParser.json())
+  .use("/api", router)
+  .use("*", (req, res) => {
+    res.status(404).json({
+      message: "Not Found",
+    });
+  });
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
