@@ -1,11 +1,17 @@
-Node Express Api.
+
 One endpoint to calculate the total length of wood of a tree(with all the branches).
-the request shloud be done with a post on the endpoint
+
+the request should be done with a post on the endpoint
+
 to start the project:
-`npm i && npm start`
-the end endpoint to calculate the length of wood is the following: http://localhost:3000
-the data should ne structure this way:
-`{
+
+```npm i && npm start```
+
+the end endpoint to calculate the length of wood is the following: http://localhost:3000/tree-length
+the data should be structure this way:
+
+```
+{
   "tree": {
     "woodLength": 5.2,
     "branches": [
@@ -41,4 +47,5 @@ the data should ne structure this way:
       }
     ]
   }
-}`
+}
+```
