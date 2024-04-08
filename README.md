@@ -1,5 +1,5 @@
 
-One endpoint to calculate the total length of wood of a tree(with all the branches).
+One endpoint to calculate the total length of wood of a tree (with all the branches).
 
 the request should be done with a post on the endpoint
 
