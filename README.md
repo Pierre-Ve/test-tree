@@ -1,13 +1,12 @@
-
 One endpoint to calculate the total length of wood of a tree (with all the branches).
 
 the request should be done with a post request on the endpoint http://localhost:3000/tree-length
 
 to start the project:
 
-```npm i && npm start```
+`npm i && npm start`
 
-the data should be structure this way:
+the data should be structured this way:
 
 ```
 {

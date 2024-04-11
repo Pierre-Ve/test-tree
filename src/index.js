@@ -1,8 +1,10 @@
-const router = require("./src/routes/router");
-const express = require("express");
+import express from "express";
+import cors from "cors";
+import bodyParser from "body-parser";
+
+import { router } from "./routes/router.js";
+
 const port = process.env.PORT || 3000;
-const bodyParser = require("body-parser");
-const cors = require("cors");
 
 const app = express();
 

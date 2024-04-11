@@ -1,7 +1,8 @@
-const express = require("express");
+import express from "express";
+import { treeController } from "../controllers/tree.controller.js";
+
 const router = express.Router();
-const treeController = require("../controllers/tree");
 
 router.post("/tree-length", treeController.getLength);
 
-module.exports = router;
+export { router };
