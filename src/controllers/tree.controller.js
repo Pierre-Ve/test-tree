@@ -1,6 +1,6 @@
 import { treeLengthService } from "../services/tree.service.js";
-import { body } from "express-validator";
 import { validationMiddleware } from "../middlewares/validation.middleware.js";
+import { body } from "express-validator";
 
 const calculateLengthRouteValidation = [
   body("branch.woodLength").isFloat({ min: 0 }),

@@ -3,7 +3,7 @@ const treeLengthService = {
     return (
       tree.branches?.reduce(
         (length, branch) => length + this.calculate(branch),
-        tree.woodLength
+        tree.woodLength,
       ) || tree.woodLength
     );
   },
