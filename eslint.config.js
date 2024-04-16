@@ -1,5 +1,4 @@
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
-import babelParser from "@babel/eslint-parser";
 
 export default [
   {
