@@ -1,4 +1,5 @@
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
+import babelParser from "@babel/eslint-parser";
 
 export default [
   {
@@ -9,7 +10,7 @@ export default [
       "prettier/prettier": "warn",
     },
     languageOptions: {
-      ecmaVersion: 7,
+      ecmaVersion: 14,
       sourceType: "module",
     },
   },

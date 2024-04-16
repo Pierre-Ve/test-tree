@@ -1,8 +1,8 @@
 const treeLengthService = {
-  calculate(tree) {
+  calculate: (tree) => {
     return (
       tree.branches?.reduce(
-        (length, branch) => length + this.calculate(branch),
+        (length, branch) => length + treeLengthService.calculate(branch),
         tree.woodLength,
       ) || tree.woodLength
     );

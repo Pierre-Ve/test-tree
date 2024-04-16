@@ -1,6 +1,6 @@
 {
   "incomplete": {
-    "tree": {
+    "branch": {
       "woodLength": 5.2,
       "branches": [
         {
@@ -37,7 +37,7 @@
     }
   },
   "complete": {
-    "tree": {
+    "branch": {
       "woodLength": 5.2,
       "branches": [
         {
@@ -75,13 +75,13 @@
     }
   },
   "empty": {
-    "tree": {
+    "branch": {
       "woodLength": 5.2,
       "branches": []
     }
   },
   "invalidType": {
-    "tree": {
+    "branch": {
       "woodLength": 5.2,
       "branches": [
         {
@@ -122,7 +122,7 @@
     }
   },
   "invalidObject": {
-    "tree": {
+    "branch": {
       "branches": [
         {
           "woodLength": 2.0,
